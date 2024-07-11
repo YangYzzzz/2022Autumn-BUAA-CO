@@ -1,0 +1,75 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/WaterCPU/mipstest_isim_beh.exe -prj /home/co-eda/WaterCPU/mipstest_beh.prj work.mipstest work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/WaterCPU/W_RegWriteSelMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/M_WRegister.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/M_RegWriteSelMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/M_ForwardStoreDataMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/M_DM.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/M_DataExt.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/F_PC.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/F_IM.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/F_DRegister.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_RegDstMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_MRegister.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_ForwardALUBMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_ForwardALUAMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_ALUSrcMux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/E_ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_Zero.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_Splitter.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_ForwardRD2Mux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_ForwardRD1Mux.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/D_ERegister.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/StallControl.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/MainControl.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/ForwardControl.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/DataBase.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/WaterCPU/mipstest.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83232 KB
+Fuse CPU Usage: 930 ms
+Compiling module F_PC
+Compiling module F_IM
+Compiling module F_DRegister
+Compiling module D_Splitter
+Compiling module D_GRF
+Compiling module D_ForwardRD1Mux
+Compiling module D_ForwardRD2Mux
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module D_ERegister
+Compiling module D_EXT
+Compiling module E_ForwardALUAMux
+Compiling module E_ForwardALUBMux
+Compiling module E_ALUSrcMux
+Compiling module E_ALU
+Compiling module E_RegDstMux
+Compiling module E_MRegister
+Compiling module M_ForwardStoreDataMux
+Compiling module M_DM
+Compiling module M_DataExt
+Compiling module M_RegWriteSelMux
+Compiling module M_WRegister
+Compiling module W_RegWriteSelMux
+Compiling module DataBase
+Compiling module MainControl
+Compiling module StallControl
+Compiling module ForwardControl
+Compiling module mips
+Compiling module mipstest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 30 Verilog Units
+Built simulation executable /home/co-eda/WaterCPU/mipstest_isim_beh.exe
+Fuse Memory Usage: 87216 KB
+Fuse CPU Usage: 980 ms
+GCC CPU Usage: 1760 ms

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/co-eda/WaterCPU/mipstest_isim_beh.exe" -prj "/home/co-eda/WaterCPU/mipstest_beh.prj" "work.mipstest" "work.glbl" 

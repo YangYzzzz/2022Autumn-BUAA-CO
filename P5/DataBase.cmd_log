@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/co-eda/WaterCPU/DataBase.xst" -ofn "/home/co-eda/WaterCPU/DataBase.syr" 
+xst -intstyle ise -ifn "/home/co-eda/WaterCPU/DataBase.xst" -ofn "/home/co-eda/WaterCPU/DataBase.syr" 
+xst -intstyle ise -ifn "/home/co-eda/WaterCPU/DataBase.xst" -ofn "/home/co-eda/WaterCPU/DataBase.syr" 
+xst -intstyle ise -ifn "/home/co-eda/WaterCPU/DataBase.xst" -ofn "/home/co-eda/WaterCPU/DataBase.syr" 

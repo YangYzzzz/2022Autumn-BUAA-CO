@@ -1,0 +1,10 @@
+Command line:
+   mipstest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  54875
+
+Tue Nov 22 19:47:48 2022
+
+
+ Elaboration Time: 0 sec

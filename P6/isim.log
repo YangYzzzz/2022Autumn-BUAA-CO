@@ -1,0 +1,57 @@
+ISim log file
+Running: /home/co-eda/P6/mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/co-eda/P6/mips_txt_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 00001fff
+                  42@00003004: $ 9 <= 00000ffc
+                  54@00003010: $17 <= 00001fff
+                  58@00003014: $17 <= 00000ffc
+                  66@0000301c: $17 <= 00000ffc
+                  70@00003020: $17 <= 00001fff
+Stopped at time : 120 ns : File "/home/co-eda/P6/mips_txt.v" Line 82
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 00001fff
+                  42@00003004: $ 9 <= 00000ffc
+                  54@00003010: $17 <= 00001fff
+                  58@00003014: $17 <= 00000ffc
+                  66@0000301c: $17 <= 00000ffc
+                  70@00003020: $17 <= 00001fff
+Stopped at time : 120 ns : File "/home/co-eda/P6/mips_txt.v" Line 82
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 00001fff
+                  42@00003004: $ 9 <= 00000ffc
+                  54@00003010: $17 <= 00001fff
+                  58@00003014: $17 <= 00000ffc
+                  66@0000301c: $17 <= 00000ffc
+                  70@00003020: $17 <= 00001fff
+Stopped at time : 120 ns : File "/home/co-eda/P6/mips_txt.v" Line 82
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 00001fff
+                  42@00003004: $ 9 <= 00000ffc
+                  54@00003010: $17 <= 00001fff
+                  58@00003014: $17 <= 00000ffc
+                  66@0000301c: $17 <= 00000ffc
+                  70@00003020: $17 <= 00001fff
+Stopped at time : 120 ns : File "/home/co-eda/P6/mips_txt.v" Line 82
+# exit 0

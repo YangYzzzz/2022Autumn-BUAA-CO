@@ -1,0 +1,48 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/SingleCPU/mipstest_isim_beh.exe -prj /home/co-eda/SingleCPU/mipstest_beh.prj work.mipstest work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/SingleCPU/SPLITTER.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/IM.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/DM.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/DataExt.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/ALL_MUX.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/DATABASE.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/CU.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/SingleCPU/mipstest.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "/home/co-eda/SingleCPU/DataExt.v" Line 36: Element index 32 into MemoryData is out of bounds
+Completed static elaboration
+Fuse Memory Usage: 82836 KB
+Fuse CPU Usage: 870 ms
+Compiling module CU
+Compiling module PC
+Compiling module IM
+Compiling module NPC
+Compiling module SPLITTER
+Compiling module RegDstMux
+Compiling module GRF
+Compiling module EXT
+Compiling module ALUSrcMux
+Compiling module ALU
+Compiling module DM
+Compiling module DataExt
+Compiling module RegWriteSelMux
+Compiling module DATABASE
+Compiling module mips
+Compiling module mipstest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 17 Verilog Units
+Built simulation executable /home/co-eda/SingleCPU/mipstest_isim_beh.exe
+Fuse Memory Usage: 86676 KB
+Fuse CPU Usage: 890 ms
+GCC CPU Usage: 850 ms
