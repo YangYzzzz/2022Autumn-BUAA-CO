@@ -1,5 +1,8 @@
 # 2022Autumn-BUAA-CO
 ## 2022年秋季北航计算机组成原理课程课设
+![c94d301ae732620595c1716d94af051](https://github.com/user-attachments/assets/3704f753-66ad-4cce-a720-730e76948d19)
+感谢JKM同学提供的手绘P5流水线~
+
 仓库内包含：
 - P0~P2：部分练习题
 - P3~P8：全部源代码与设计报告
